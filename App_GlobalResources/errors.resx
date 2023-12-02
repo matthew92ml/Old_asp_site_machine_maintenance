@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="error_001" xml:space="preserve">
+    <value>Inserire l'indirizzo email</value>
+  </data>
+  <data name="error_002" xml:space="preserve">
+    <value>Email non valida</value>
+  </data>
+  <data name="error_003" xml:space="preserve">
+    <value>Inserire la password</value>
+  </data>
+  <data name="error_004" xml:space="preserve">
+    <value>Password non valida</value>
+  </data>
+  <data name="error_005" xml:space="preserve">
+    <value>Database non collegato</value>
+  </data>
+  <data name="error_006" xml:space="preserve">
+    <value>Connessione non riuscita</value>
+  </data>
+  <data name="error_007" xml:space="preserve">
+    <value>Errore di sistema</value>
+  </data>
+  <data name="error_008" xml:space="preserve">
+    <value>Errore durante il salvataggio dei dati dell'utente</value>
+  </data>
+  <data name="error_009" xml:space="preserve">
+    <value>Utente già attivato</value>
+  </data>
+  <data name="error_010" xml:space="preserve">
+    <value>Inserire la conferma password</value>
+  </data>
+  <data name="error_011" xml:space="preserve">
+    <value>Password e conferma non coincidono</value>
+  </data>
+  <data name="error_012" xml:space="preserve">
+    <value>Invio email recupero password non riuscito</value>
+  </data>
+  <data name="error_013" xml:space="preserve">
+    <value>La password deve essere almeno di 8 caratteri</value>
+  </data>
+  <data name="error_014" xml:space="preserve">
+    <value>Codice recupero password non valido</value>
+  </data>
+  <data name="error_015" xml:space="preserve">
+    <value>Errore nell'aggiornamento della nuova password</value>
+  </data>
+  <data name="error_016" xml:space="preserve">
+    <value>Assicurarsi di aver inserito correttamente i dati. Se il problema persiste contattare l'assistenza</value>
+  </data>
+  <data name="error_017" xml:space="preserve">
+    <value>Errore durante la cancellazione dell'unità</value>
+  </data>
+  <data name="error_018" xml:space="preserve">
+    <value>Errore durante la rimozione del collegamento ai tag</value>
+  </data>
+  <data name="error_019" xml:space="preserve">
+    <value>Inserire il nome</value>
+  </data>
+  <data name="error_020" xml:space="preserve">
+    <value>Inserire il cognome</value>
+  </data>
+  <data name="error_021" xml:space="preserve">
+    <value>Specificare il numero di componenti il nucleo</value>
+  </data>
+  <data name="error_022" xml:space="preserve">
+    <value>Inserire l'indirizzo</value>
+  </data>
+  <data name="error_023" xml:space="preserve">
+    <value>Inserire il codice fiscale</value>
+  </data>
+  <data name="error_024" xml:space="preserve">
+    <value>Inserire il codice nucleo</value>
+  </data>
+  <data name="error_025" xml:space="preserve">
+    <value>Specificare il tipo nucleo</value>
+  </data>
+  <data name="error_026" xml:space="preserve">
+    <value>Errore durante il salvataggio dei dati dell'unità</value>
+  </data>
+  <data name="error_027" xml:space="preserve">
+    <value>Errore durante il collegamento della città all'utente</value>
+  </data>
+  <data name="error_028" xml:space="preserve">
+    <value>L'indirizzo email è già stato utilizzato</value>
+  </data>
+  <data name="error_029" xml:space="preserve">
+    <value>File da importare non selezionato</value>
+  </data>
+  <data name="error_030" xml:space="preserve">
+    <value>Tipo file non valido, selezionare un file di tipo csv</value>
+  </data>
+  <data name="error_031" xml:space="preserve">
+    <value>Il codice nucleo è già stato utilizzato</value>
+  </data>
+  <data name="error_032" xml:space="preserve">
+    <value>La struttura del file CSV non è corretta</value>
+  </data>
+  <data name="error_033" xml:space="preserve">
+    <value>Inserire il numero civico</value>
+  </data>
+  <data name="error_034" xml:space="preserve">
+    <value>Inserire il CAP</value>
+  </data>
+  <data name="error_035" xml:space="preserve">
+    <value>Inserire la città</value>
+  </data>
+  <data name="error_036" xml:space="preserve">
+    <value>Inserire la provincia</value>
+  </data>
+  <data name="error_037" xml:space="preserve">
+    <value>Email già usata da un altro utente</value>
+  </data>
+  <data name="error_038" xml:space="preserve">
+    <value>Numero abitanti non corretto</value>
+  </data>
+  <data name="error_039" xml:space="preserve">
+    <value>Errore durante il salvataggio del numero di abitanti dell'ente</value>
+  </data>
+  <data name="error_040" xml:space="preserve">
+    <value>Valore punteggio bonus non valido</value>
+  </data>
+  <data name="error_041" xml:space="preserve">
+    <value>Valore punteggio malus non valido</value>
+  </data>
+  <data name="error_042" xml:space="preserve">
+    <value>Errore durante il salvataggio del punteggio bonus</value>
+  </data>
+  <data name="error_043" xml:space="preserve">
+    <value>Errore durante il salvataggio del punteggio malus</value>
+  </data>
+  <data name="error_044" xml:space="preserve">
+    <value>Errore durante il salvataggio dei dati dell'ente</value>
+  </data>
+  <data name="error_045" xml:space="preserve">
+    <value>Inserire il numero di abitanti</value>
+  </data>
+  <data name="error_046" xml:space="preserve">
+    <value>Inserire la regione</value>
+  </data>
+  <data name="error_047" xml:space="preserve">
+    <value>Numero di abitanti non valido</value>
+  </data>
+  <data name="error_048" xml:space="preserve">
+    <value>Errore durante l'eliminazione dei dati dell'ente</value>
+  </data>
+  <data name="error_049" xml:space="preserve">
+    <value>Inserire il codice tag</value>
+  </data>
+  <data name="error_050" xml:space="preserve">
+    <value>Tag già importato</value>
+  </data>
+  <data name="error_051" xml:space="preserve">
+    <value>Errore durante il salvataggio del tag</value>
+  </data>
+  <data name="error_052" xml:space="preserve">
+    <value>Inserire codice stazione</value>
+  </data>
+  <data name="error_053" xml:space="preserve">
+    <value>Stazione già inserita</value>
+  </data>
+  <data name="error_054" xml:space="preserve">
+    <value>Errore durante il salvataggio dei dati della stazione</value>
+  </data>
+  <data name="error_055" xml:space="preserve">
+    <value>Errore durante la creazione del PDF</value>
+  </data>
+  <data name="error_056" xml:space="preserve">
+    <value>Conferma di aver letto a accettato le norme sulla privacy</value>
+  </data>
+  <data name="error_057" xml:space="preserve">
+    <value>Inserire il numero di telefono</value>
+  </data>
+  <data name="error_058" xml:space="preserve">
+    <value>Inserire il numero di cellulare</value>
+  </data>
+  <data name="error_059" xml:space="preserve">
+    <value>Inserire il nome utente</value>
+  </data>
+  <data name="error_060" xml:space="preserve">
+    <value>Il nome utente deve essere almeno di 6 caratteri</value>
+  </data>
+  <data name="error_061" xml:space="preserve">
+    <value>Nome utente non valido</value>
+  </data>
+  <data name="error_062" xml:space="preserve">
+    <value>Il nome utente è già stato utilizzato</value>
+  </data>
+  <data name="error_063" xml:space="preserve">
+    <value>Errore durante la cancellazione dell'utente web</value>
+  </data>
+  <data name="error_064" xml:space="preserve">
+    <value>Errore durante la cancellazione dell'associazione città - utente web</value>
+  </data>
+</root>
